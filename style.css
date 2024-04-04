@@ -1,0 +1,15 @@
+nav{
+    background: black;
+    color: white;
+    padding: 10px;
+    padding-left: 620px;   
+}
+
+a.menu{
+    color: white;
+    text-decoration: none;
+}
+a.menu:hover{
+    color:orange;
+    background: blue;
+}

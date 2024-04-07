@@ -1,0 +1,87 @@
+html {
+    background: #e6e9e9;
+    background-image: linear-gradient(180deg, rgb(212, 223, 229) 0%, rgb(255, 255, 255) 100%);
+    -webkit-font-smoothing: antialiased;
+}
+@keyframes picAnim {
+	20% {
+		transform: scale(0.97);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+nav{
+    
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    background-color: #9dbed2;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+div#main{
+
+    text-align: center;
+    padding-bottom: 4px;
+    margin-top: 10px;
+    
+}
+
+div#part{
+    border-radius: 15px;
+    background-color: #9dbed2;
+}
+
+div#heading{
+    text-align: center;
+}
+
+
+div.gallery{
+    animation: picAnim 2s ease 0s 1 normal forwards;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 70px;
+    
+}
+img.pic:hover{
+    transform: scale(1.15);
+    background-color: #73bbe8;
+    color: black;
+    cursor: pointer;
+    outline: 2px solid #95c6db;
+        
+}
+
+
+
+
+/*PICTURE PAGES*/
+
+div#page2Title{
+    
+    text-align: center;
+}
+
+div.page2Header{
+    
+}
+div.page2Desc{
+    
+}
+
+div#sky{
+    
+    text-align: center;
+    padding-top: 5%;
+}
+
+img.sky1:hover{
+    animation: picAnim 2s ease 0s 1 normal forwards;
+    
+}
